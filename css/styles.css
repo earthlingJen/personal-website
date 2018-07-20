@@ -34,3 +34,26 @@
   flex-wrap: wrap;
   flex-direction: column;
 }
+.white {
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.btn {
+  width: 10em;
+  background: green;
+}
+.bluebutton {
+  background: deepskyblue;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.bluebutton:hover {
+  background: grey;
+}
