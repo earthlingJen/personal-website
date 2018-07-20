@@ -3,28 +3,34 @@
 }
 
 .list li {
-  background-color: rgb(255, 0, 157);
+  background-color: deepskyblue;
   display: inline-block;
   border-radius: 10px;
-  color: yellow;
+  color: white;
   padding: 5px;
   margin: 5px;
 }
 
 .caption {
-  background-color: aqua;
+  background-color: #dcdcdc;
   color: gray;
 }
 
 .shadow1 {
-  box-shadow: 30px 20px 28px 5px #01080ee5;
+  box-shadow: 12px 13px 13px -1px;
 }
 
-.rand {
-  border: 6px dashed hotpink;
-  border-radius: 60px;
+.box {
+  background-color: gainsboro;
 }
 
-.schrift {
-  font-family: fantasy;
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
