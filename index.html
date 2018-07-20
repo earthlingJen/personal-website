@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jen</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Chela+One" rel="stylesheet">
+
+
+</head>
+
+<body class="container">
+
+  <header>
+    <h1 class="caption mt-2 pl-3 shadow1"> Jennifer Winkler</h1>
+  </header>
+
+  <main>
+    <div class="row mt-5">
+
+      <div class="col-sm bg-primary ml-3">
+        <img src="http://tipps.computerbild.de/imgs/19/1/1/0/1/6/3/gaming-1d8b98176e3d41e0.jpg" alt="bild" class="img-fluid d-flex pl-1">
+      </div>
+      <div class="col-sm bg-primary">
+        <h1>About me</h1>
+        <p>Lorem ipsum dolor, sit amet adipisicing elit. Eligendi, qui! Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Laboriosam, debitis amet reprehenderit qui corporis laudantium nisi aliquam in et praesentium voluptatibus
+          officiis, eos dolores commodi ratione nemo vel quam consequuntur? Lorem</p>
+      </div>
+      <!-- damit skills feld sich bis unten füllt und wenn man ohne margin arbeiten will, kann 
+man d-flex verwenden -->
+      <div class="col-sm-3 bg-success mr-3 rand">
+        <h1 class="schrift">Skills</h1>
+        <button class="btn btn-primary m-1">JavaScript</button>
+        <button class="btn btn-primary m-1">HTML</button>
+        <button class="btn btn-primary m-1">Gitarre spielen</button>
+
+        <!-- ab hier eigene CSS Buttons -->
+        <ul class="list">
+          <li>CSS</li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="row-12 mt-2 text-center">
+
+      <div class="col caption">
+        <div class="d-block d-sm-block d-md-none d-lg-none d-xl-none">
+          <!-- d-md-none reicht -->
+          <h3>Mobile</h3>
+        </div>
+        <div class="d-none d-sm-none d-md-block d-lg-none d-xl-none">
+          <!-- d-none dmd-block d-lg-none reicht -->
+          <h3>Tablet</h3>
+        </div>
+        <div class="d-none d-sm-none d-md-none d-lg-block d-xl-block">
+          <!-- d-none d-lg-block reicht -->
+          <h3>Desktop</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="mb-1 col-sm-12 col-md-6 col-lg-3">
+          <div class="bg-warning p-2">
+            A
+          </div>
+        </div>
+        <div class="mb-1 col-sm-12 col-md-6 col-lg-3">
+          <div class="bg-primary p-2">
+            B
+          </div>
+        </div>
+        <div class="mb-1 col-sm-12 col-md-6 col-lg-3">
+          <div class="bg-warning p-2">
+            C
+          </div>
+        </div>
+        <div class="mb-1 col-sm-12 col-md-6 col-lg-3">
+          <div class="bg-primary p-2">
+            D
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+  </main>
+
+  <footer>
+    <a href="imprint.html">
+      <h5 class="caption p-3 mt-2">Impressum</h5>
+    </a>
+  </footer>
+
+
+  <!-- diese Reihenfolge ist wichtig! und muss am Ende stehen damit erst HTML geladen wird -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

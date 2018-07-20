@@ -1,0 +1,31 @@
+.list {
+  list-style: none;
+}
+
+.list li {
+  background-color: rgb(255, 0, 157);
+  display: inline-block;
+  border-radius: 10px;
+  color: yellow;
+  padding: 5px;
+  margin: 5px;
+}
+
+.caption {
+  background-color: aqua;
+  color: gray;
+  font-family: "Chela One", sans-serif;
+}
+
+.shadow1 {
+  box-shadow: 30px 20px 28px 5px #01080ee5;
+}
+
+.rand {
+  border: 6px dashed hotpink;
+  border-radius: 60px;
+}
+
+.schrift {
+  font-family: fantasy;
+}
