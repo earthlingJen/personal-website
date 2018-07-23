@@ -1,3 +1,32 @@
+.bluebutton {
+  background: deepskyblue;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.bluebutton:hover {
+  background: grey;
+}
+
+.box {
+  background-color: gainsboro;
+}
+
+.btn {
+  width: 10em;
+}
+
+.caption {
+  background-color: #dcdcdc;
+  color: black;
+}
+
+.col1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
 .list {
   list-style: none;
 }
@@ -11,17 +40,10 @@
   margin: 5px;
 }
 
-.caption {
-  background-color: #dcdcdc;
-  color: black;
-}
-
-.shadow1 {
-  box-shadow: 8px 11px 22px -6px;
-}
-
-.box {
-  background-color: gainsboro;
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .row1 {
@@ -29,31 +51,10 @@
   flex-wrap: wrap;
 }
 
-.col1 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+.shadow1 {
+  box-shadow: 8px 11px 22px -6px;
 }
+
 .white {
   color: white;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.btn {
-  width: 10em;
-  background: green;
-}
-.bluebutton {
-  background: deepskyblue;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.bluebutton:hover {
-  background: grey;
 }
